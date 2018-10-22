@@ -31,3 +31,8 @@ function removeLastKitten(name) {
   let lastKitty = kittens.slice(0, kittens.length -1);
   return lastKitty;
 }
+
+function removeLastKitten(name) {
+  let lastKitty = kittens.slice(0, kittens.length -1);
+  return lastKitty;
+}
