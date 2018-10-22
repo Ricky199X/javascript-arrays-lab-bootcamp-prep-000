@@ -24,4 +24,5 @@ function appendKitten(name) {
 
 function prependKitten(name) {
   let prepended = [name,...kittens];
+  return prepended;
 }
